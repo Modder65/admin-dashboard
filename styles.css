@@ -437,6 +437,8 @@ ul {
 }
 
 @media screen and (max-width: 624px) {
+   
+
     .top-start img {
         width: 110px;
         height: 110px;
@@ -449,6 +451,10 @@ ul {
     .bottom-end {
         flex-direction: column;
         gap: 20px;
+    }
+
+    input {
+        width: 25%;
     }
 
     .bottom-end button {
@@ -464,5 +470,5 @@ ul {
         flex-direction: column;
     }
 
-
+    
 }
